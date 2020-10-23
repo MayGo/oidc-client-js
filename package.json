@@ -2,7 +2,8 @@
   "name": "oidc-client-maygo",
   "version": "1.10.7",
   "description": "OpenID Connect (OIDC) & OAuth2 client library",
-  "main": "lib/oidc-client.js",
+  "main": "lib/oidc-client.min.js",
+  "module": "./index.js",
   "scripts": {
     "build": "gulp",
     "start": "node samples/VanillaJS/server.js",
